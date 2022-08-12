@@ -1,0 +1,27 @@
+{
+  "name": "xml2json-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerzakm/xml2json-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerzakm/xml2json-express/issues"
+  },
+  "homepage": "https://github.com/jerzakm/xml2json-express#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fast-xml-parser": "^4.0.9"
+  },
+  "type": "module"
+}
